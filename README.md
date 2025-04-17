@@ -35,3 +35,6 @@ camelCase  : joaoLima
  - Bolean type  
  - Null type  
  - Undefined type  
+# Declaração e atribuição de variáveis
+var texto (definição) fiz a definição de uma variável  
+texto = “JavaScript” (Atribuição) atribui um valor para a   definição da variável  
