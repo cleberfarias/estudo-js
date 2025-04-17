@@ -20,3 +20,10 @@ nesse caso precisa!
 “ ou ‘ simples: console.log("Meu nome é:", 'O valor \'Joseé Luiz\' é uma String')  
 (``) usado para interpolação de string  (`${}`
 
+# Case sensitivity 
+
+nomes de Varíavel  - tem que ser igual se for maíucolo ou minúsculo.
+snake_case : joao_lima 
+PascalCase : JoaoLima
+kebab-case : joao-lima
+camelCase  : joaoLima
