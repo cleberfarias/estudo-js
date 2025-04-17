@@ -38,3 +38,8 @@ camelCase  : joaoLima
 # Declaração e atribuição de variáveis
 var texto (definição) fiz a definição de uma variável  
 texto = “JavaScript” (Atribuição) atribui um valor para a   definição da variável  
+# Escopos (var, let e const)
+Diferença entre var, let e const.
+let - mais indicado para definir uma variável não deixa usar o mesmo nome de variável (escopo mais fechado)  
+var - ele deixar chamar no console.log mesmos estando fora do escopo(escopo mais aberto)  
+const - como diz o nome ela é uma constante, portanto não pode ser alterada.  
