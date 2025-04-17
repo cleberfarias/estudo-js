@@ -22,8 +22,16 @@ nesse caso precisa!
 
 # Case sensitivity 
 
-nomes de Varíavel  - tem que ser igual se for maíucolo ou minúsculo.
-snake_case : joao_lima 
-PascalCase : JoaoLima
-kebab-case : joao-lima
-camelCase  : joaoLima
+nomes de Varíavel  - tem que ser igual se for maíucolo ou minúsculo.  
+snake_case : joao_lima  
+PascalCase : JoaoLima  
+kebab-case : joao-lima  
+camelCase  : joaoLima  
+
+# Tipos de dados 
+* Imutaveis ( não podem ser alterados) e dados do nivel de baixo da Linguagem 
+ - String type  
+ - Number type  
+ - Bolean type  
+ - Null type  
+ - Undefined type  
