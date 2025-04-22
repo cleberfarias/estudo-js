@@ -32,3 +32,5 @@ function calcular(){
     
     document.querySelector("#resultado").value =resultado;
 }
+
+console.log(Math.floor (14/8))

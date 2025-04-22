@@ -47,4 +47,8 @@ const - como diz o nome ela é uma constante, portanto não pode ser alterada.
 listas de palavras reservadas do JS https://www.w3schools.com/js/js_reserved.asp  
 não pode ser utilizado em qualquer lugar do código somente no lugar correto de forma correta  conforme a sintaxe
 # Operadores Aritméticos
-- tipos de operadores e a forma de utilizalos
+- tipos de operadores e a forma de utilizalos  
+# Tipo String e suas operações
+-documentação de tipos de strig e operações  
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
+ 
