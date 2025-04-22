@@ -52,3 +52,7 @@ não pode ser utilizado em qualquer lugar do código somente no lugar correto de
 -documentação de tipos de strig e operações  
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String
  
+# Arrays e operadores
+- Arrays são um metodo de lista, onde pode ser de vairos tipos como Strings, numeros entre outros.  
+- e percorremos os elementos atraves de indice, iniciando do 0, exemplo o primeiro elemento está no indice 0.  
+- Elementos de um array são propriedades de objeto da mesma forma que toStringuma propriedade (para ser mais específico, porém, toString()é um método).  
