@@ -43,3 +43,6 @@ Diferença entre var, let e const.
 let - mais indicado para definir uma variável não deixa usar o mesmo nome de variável (escopo mais fechado)  
 var - ele deixar chamar no console.log mesmos estando fora do escopo(escopo mais aberto)  
 const - como diz o nome ela é uma constante, portanto não pode ser alterada.  
+# palavras reservadas - 
+listas de palavras reservadas do JS https://www.w3schools.com/js/js_reserved.asp  
+não pode ser utilizado em qualquer lugar do código somente no lugar correto de forma correta  conforme a sintaxe
