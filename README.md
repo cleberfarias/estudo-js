@@ -57,4 +57,6 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects
 - e percorremos os elementos atraves de indice, iniciando do 0, exemplo o primeiro elemento está no indice 0.  
 - Elementos de um array são propriedades de objeto da mesma forma que toStringuma propriedade (para ser mais específico, porém, toString()é um método).  
 # Strings como Arrays
-- String como arrays os elementos não podem ser alterados, e sim, podem ser mensionados pelo indice, pois uma string são imutáveis   
+- String como arrays os elementos não podem ser alterados, e sim, podem ser mensionados pelo indice, pois uma string são imutáveis  
+# Conversão de tipos
+- Conversão de Tipo (ou typecasting) significa transferência de dados de um tipo de dado para o outro. A conversão implícita ocorre quando o compilador atribui automaticamente os tipos de dados, mas o código fonte também pode explicitamente exigir uma conversão de tipo. Por exemplo, dada a instrução 5+2.0, o float 2.0 será implicitamente convertido para integer, mas dada a instrução Number("0x11"), a string "0x11" será explicitamente convertida para o número 17.
