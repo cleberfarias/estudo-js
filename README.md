@@ -62,3 +62,16 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects
 - Conversão de Tipo (ou typecasting) significa transferência de dados de um tipo de dado para o outro. A conversão implícita ocorre quando o compilador atribui automaticamente os tipos de dados, mas o código fonte também pode explicitamente exigir uma conversão de tipo. Por exemplo, dada a instrução 5+2.0, o float 2.0 será implicitamente convertido para integer, mas dada a instrução Number("0x11"), a string "0x11" será explicitamente convertida para o número 17.
 # Desvios condicionais
 -If else, são usados para fazerem um desvio condidional usando a logica booleana
+#  tabela verdade && e ||
+TABELA VERDADE ( E && )  
+ f · f := f  
+ f · v := f  
+ v · f := f  
+ v · v := v ...(***)  
+ 
+TABELA VERDADE ( OU || )  
+
+f · f := f ...(***)  
+f · v := v  
+v · f := v  
+v · v := v  
