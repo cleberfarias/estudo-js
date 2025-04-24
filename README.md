@@ -75,3 +75,16 @@ f · f := f ...(***)
 f · v := v  
 v · f := v  
 v · v := v  
+# Repetições (for, for in, for of e forEach)
+for — "para"  
+Esse é o for clássico do JavaScript. Ele funciona com um contador (indice), que começa em 0 e vai até o tamanho da lista (listaUm.length), passando por todos os elementos da lista.  Uso: Esse tipo de laço é mais flexível e pode ser usado em muitos cenários, pois você tem total controle sobre o índice e pode, por exemplo, manipular o índice de maneiras específicas.  
+
+for...in — "para cada índice em" (objetos ou arrays)  
+O for...in é usado para percorrer os índices ou propriedades de um objeto. Nesse caso, indice vai representar o índice do array e não o valor. Uso: Embora o for...in funcione com   arrays, ele foi projetado para percorrer propriedades de  
+
+for...of — "para cada valor de" (arrays, strings, etc.)  
+O for...of é usado para percorrer os valores de um array ou de qualquer objeto iterável (como Map, Set, etc.). Diferente do for...in, ele não retorna os índices, mas sim os valores   dos elementos. Uso: O for...of é ideal quando você não se importa com os índices e só quer trabalhar diretamente com os valores.  
+
+forEach — "para cada um" (arrays)  
+O forEach é um método do JavaScript que percorre todos os elementos de um array e executa uma função de callback para cada um deles. A função é chamada com o valor do elemento atual   como argumento. Uso: O forEach é ótimo para percorrer arrays quando você não precisa de controle sobre o índice ou quer apenas executar um bloco de código para cada elemento. Ele é   mais conciso que o for tradicional.  
+
