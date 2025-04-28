@@ -5,16 +5,27 @@
  * forEch
  */
 
-let listaUm = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
-    11, 12, 13, 14, 15, 16, 17, 18, 
-    19, 20, 21, 22]
+let listaUm = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+];
 
 let listaDois = [
-    'erro', 'eleva', 'duque', 'damas', 'dados', 'creme', 
-    'cofre', 'acode', 'acima', 'achou', 'ache', 'achem']
+  "erro",
+  "eleva",
+  "duque",
+  "damas",
+  "dados",
+  "creme",
+  "cofre",
+  "acode",
+  "acima",
+  "achou",
+  "ache",
+  "achem",
+];
 
 // for tradicional
-//for (var indice =0; indice < listaUm.length; indice++){ 
+//for (var indice =0; indice < listaUm.length; indice++){
 //    console.log('indice=', listaUm[indice])
 //}
 
@@ -24,10 +35,15 @@ let listaDois = [
 //}
 
 // for off
-//for (var elemento of listaDois){
-//      console.log('elemento', elemento);
-//}
+for (var elemento of listaDois) {
+  if (elemento == "damas" || elemento == "acima") {
+    console.log("Pular");
+    continue;
+  }
+  console.log("elemento", elemento);
+}
+console.log("Fim");
 //forEch
-listaDois.forEach(function(elemento){
-    console.log(elemento)
-})
+//listaDois.forEach(function(elemento){
+//    console.log(elemento)
+//})
