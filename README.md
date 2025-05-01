@@ -93,3 +93,9 @@ O forEach é um método do JavaScript que percorre todos os elementos de um arra
 --parâmetro onde vai ser incrementado no chamada( não necessariamente)  
 --a ação que vai executar o parâmetro  
 --e o retorno onde vai armazenar o resultado do parâmetro(não necessariamente)  
+## Objetos
+Objetos são basicamente variáveis com muitos valores dentro. Envolvido por Chaves  
+ 
+Os válores dentro de um objeto são chamados de propriedades  
+ 
+Objetos também podem ter métodos. Um Método é uma função clocadas dentro de uma propriedade  
