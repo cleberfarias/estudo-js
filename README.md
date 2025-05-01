@@ -87,4 +87,9 @@ O for...of é usado para percorrer os valores de um array ou de qualquer objeto 
 
 forEach — "para cada um" (arrays)  
 O forEach é um método do JavaScript que percorre todos os elementos de um array e executa uma função de callback para cada um deles. A função é chamada com o valor do elemento atual   como argumento. Uso: O forEach é ótimo para percorrer arrays quando você não precisa de controle sobre o índice ou quer apenas executar um bloco de código para cada elemento. Ele é   mais conciso que o for tradicional.  
-
+## Função
+-Toda função tem que ter   
+--Chamada  
+--parâmetro onde vai ser incrementado no chamada( não necessariamente)  
+--a ação que vai executar o parâmetro  
+--e o retorno onde vai armazenar o resultado do parâmetro(não necessariamente)  
