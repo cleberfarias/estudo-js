@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+.container-principal {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo {
+    font-family: sans-serif;
+    color: #000fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caixa-de-input {
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: #000fff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #2980b9;
+    
+}
