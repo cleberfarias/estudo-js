@@ -100,4 +100,4 @@ Os válores dentro de um objeto são chamados de propriedades
  
 Objetos também podem ter métodos. Um Método é uma função clocadas dentro de uma propriedade  
 
-O Objeto é sempre composto de conjunto de chave e valor 
+Manipulando Objeto e Percorrendo Objeto
