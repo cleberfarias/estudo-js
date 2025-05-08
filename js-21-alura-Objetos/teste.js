@@ -1,19 +1,27 @@
-const paciente = {
-    nome: "James T.",
-    idade: 30,
-    email: "jt@email.com",
-    identicacao: "Alpha01259859",
-    funcao:"comandante",
-    peso: 80.1,
-    altura: 1.80,
-    calcularIMC:function(){
-          return (this.peso/(Math.pow(this.altura,2)))
-    },
-    nomeCompleto:function(){
-      console.log(this.nome)
-    }
-   }
+const estudantes = require('./estudantes.json')
 
-   for (let info in paciente) {
-    console.log(info, paciente)
-   };
+function ordenar(lista, propriedade, decrescente = false) {
+  return lista.sort((a, b) => {
+      let valorA = a[propriedade];
+      let valorB = b[propriedade];
+
+      if (typeof valorA === 'string') {
+          valorA = valorA.toUpperCase();
+      }
+      if (typeof valorB === 'string') {
+          valorB = valorB.toUpperCase();
+      }
+
+      if (valorA < valorB) {
+          return decrescente ? 1 : -1;
+      }
+      if (valorA > valorB) {
+          return decrescente ? -1 : 1;
+      }
+      return 0;
+  });
+}
+
+// Exemplo de uso para ordenar de forma decrescente pelo nome
+const ordenadoNomeDecrescente = ordenar(estudantes, "nome", true);
+console.log(ordenadoNomeDecrescente);
